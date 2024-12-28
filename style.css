@@ -12,6 +12,9 @@ body {
 header {
     width: 100%;
 }
+header p:first-child {
+    font-weight: 200;
+}
 header p:first-child,
 header h1 {
     font-size: 1.8em;
@@ -35,10 +38,13 @@ main {
     min-height: 220px;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-}
+    box-shadow: rgba(0, 0, 0, 0.25) 0 25px 50px -12px;}
 .box img {
     align-self: flex-end;
+}
+
+.context, div p {
+    opacity: 0.5;
 }
 
 .one {
@@ -92,7 +98,7 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 15px;
+        gap: 30px;
     }
 
     .one {
