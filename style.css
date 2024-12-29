@@ -11,6 +11,7 @@ body {
 
 header {
     width: 100%;
+    margin-top: 50px;
 }
 header p:first-child {
     font-weight: 200;
@@ -25,7 +26,7 @@ header h1 {
 }
 
 main {
-    margin: 100px auto 100px auto;
+    margin: 50px auto 50px auto;
 }
 
 .box {
